@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: xcontrols - Win32 Lazer--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Lazer/xcontrols.res" /d "NDEBUG" "G:\sources\Visual C++\qlaunch\xcontrols\xcontrols.rc"" 
+Creating temporary file "C:\DOCUME~1\root\LOCALS~1\Temp\RSP184.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "XCONTROLS_EXPORTS" /D "_WHEELTOSCROLL" /FR"Lazer/" /Fp"Lazer/xcontrols.pch" /YX /Fo"Lazer/" /Fd"Lazer/" /FD /c 
+"G:\sources\Visual C++\qlaunch\xcontrols\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\root\LOCALS~1\Temp\RSP184.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib advapi32.lib shell32.lib /nologo /dll /incremental:no /pdb:"Lazer/xcontrols.pdb" /machine:I386 /out:"Lazer/xcontrols.dll" /implib:"Lazer/xcontrols.lib"  ".\Lazer\main.obj" ".\Lazer\xcontrols.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+main.cpp
+Linking...
+   Creating library Lazer/xcontrols.lib and object Lazer/xcontrols.exp
+
+
+
+<h3>Results</h3>
+xcontrols.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
